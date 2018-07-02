@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "caca4f30-7d97-11e8-8d6a-ef14e53595ef",
+    "_type": "visualization",
+    "_source": {
+      "title": "Services",
+      "visState": "{\"title\":\"Services\",\"type\":\"metric\",\"params\":{\"addLegend\":false,\"addTooltip\":true,\"metric\":{\"colorSchema\":\"Green to Red\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"invertColors\":false,\"labels\":{\"show\":true},\"metricColorMode\":\"None\",\"percentageMode\":false,\"style\":{\"bgColor\":false,\"bgFill\":\"#000\",\"fontSize\":60,\"labelColor\":false,\"subText\":\"\"},\"useRanges\":false},\"type\":\"metric\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"syslog_program.keyword\",\"customLabel\":\"РљРѕР»РёС‡РµСЃС‚РІРѕ СЃРµСЂРІРёСЃРѕРІ РїРѕ Р»РѕРіР°Рј\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"2d1b2ed0-7d97-11e8-8d6a-ef14e53595ef\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    }
+  }
+]
